@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>우리의 200일ㅎㅎ!♥|7</title>
+    <script src="jquery-1.12.4.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $(".click").click(function(){
+                $(this).addClass("on")
+            })
+        });
+    </script>
+    <style type="text/css">
+       *{padding: 0;margin: 0;}
+        a{text-decoration: none;}
+        body{overflow: hidden;}
+
+        div.all{overflow: hidden;}
+        div.all img{position: relative;width: 100vw;height: 100vh;}
+        
+        p.click{font-family: Gamja Flower;color: #FF6E99;
+                position: absolute;left: 50%;top: 20px;transform: translateX(-50%);}
+
+        
+
+       
+
+        a.arrow2{position: absolute;left: 10px;top: 95%;transform: translateY(-50%) scale(0.55);;display: inline-block;overflow: hidden;
+                  animation: arrow_all 2s forwards linear 3s ;opacity: 0;}
+        a.arrow2 img{width: 10px;height: 30px;}
+        a.arrow2 span{position: relative;;animation: arrow2 1.5s linear 0s infinite;}
+        
+        a.arrow2 p{font-family: Gamja Flower;color: #555;}
+
+        @keyframes arrow1{
+            0%{left:0px;}
+            49%{left:80px}
+            50%{left:-100px;}
+            100%{left:0px}
+        }
+        @keyframes arrow2{
+            0%{right:0px;}
+            49%{right:80px}
+            50%{right:-100px;}
+            100%{right:0px}
+        }
+        @keyframes arrow_all{
+            0%{opacity: 0;}
+            100%{opacity: 1;}
+        }
+        
+        div.one{width: 90px;height: 90px;transition: all 1s ease-in-out 0s;
+                animation: one 2s ease-in infinite 0s;background: url(tp1.png) no-repeat 0 0;background-size: cover;
+                position: absolute;left: 0;top: 0;}
+        div.one.on{background: url(p1.png) no-repeat 0 0;
+                    animation: none;left: 30px;top: 110px;}
+        
+        div.two{width: 90px;height: 90px;transition: all 1s ease-in-out 0s;
+                animation: two 1s ease-in infinite 0s;background: url(tp2.png) no-repeat 0 0;background-size: cover;
+                position: absolute;right: 0;top: 0;}
+                div.two.on{background: url(p2.png) no-repeat 0 0;
+                    animation: none;left: 50%;top: 110px;transform: translateX(-50%);}
+
+        div.three{width: 90px;height: 90px;transition: all 1s ease-in-out 0s;
+                animation: three 3s ease-in infinite 0s;background: url(tp3.png) no-repeat 0 0;background-size: cover;
+                position: absolute;right: 0;top: 0;}
+                div.three.on{background: url(p3.png) no-repeat 0 0;
+                    animation: none;right: 30px;top: 110px;}
+
+        div.four{width: 90px;height: 90px;transition: all 1s ease-in-out 0s;
+                animation: four .9s ease-in infinite 0s;background: url(tp4.png) no-repeat 0 0;background-size: cover;
+                position: absolute;right: 0;top: 0;}
+                div.four.on{background: url(p4.png) no-repeat 0 0;
+                    animation: none;left: 30px;top: 210px;}
+                    
+        div.five{width: 90px;height: 90px;transition: all 1s ease-in-out 0s;
+                animation: five 2s ease-in infinite 0s;background: url(tp5.png) no-repeat 0 0;background-size: cover;
+                position: absolute;left: 0;top: 0;}
+                div.five.on{background: url(p5.png) no-repeat 0 0;
+                    animation: none;left: 50%;top: 210px;transform: translateX(-50%);}
+
+        div.six{width: 90px;height: 90px;transition: all 1s ease-in-out 0s;
+                animation: six 2s ease-in infinite 0s;background: url(tp6.png) no-repeat 0 0;background-size: cover;
+                position: absolute;right: 0;top: 0;}
+                div.six.on{background: url(p6.png) no-repeat 0 0;
+                    animation: none;right: 30px;top: 210px;}
+
+        div.seven{width: 40px;height: 40px;transition: all 1s ease-in-out 0s;
+                animation: seven 2s ease-in infinite 0s;background: url(tp7.png) no-repeat 0 0;background-size: cover;
+                position: absolute;right: 20px;top: 30px;}
+                div.seven.on{background: url(p7.png) no-repeat 0 0;
+                    animation: none;left: 30px;top: 310px;width: 90px;height: 90px;}
+
+        div.eaight{width: 90px;height: 90px;transition: all 1s ease-in-out 0s;
+                animation: eaight 2s ease-in infinite 0s;background: url(tp8.png) no-repeat 0 0;background-size: cover;
+                position: absolute;left: 200px;bottom: 30px;}
+                div.eaight.on{background: url(p7.png) no-repeat 0 0;
+                    animation: none;left: 50%;top: 310px;transform: translateX(-50%);}
+
+        div.nine{width: 50px;height: 50px;transition: all 1s ease-in-out 0s;
+                animation: nine 2s ease-in infinite 0s;background: url(tp9.png) no-repeat 0 0;background-size: cover;
+                position: absolute;right: -50px;bottom: 60px;}
+                div.nine.on{background: url(p7.png) no-repeat 0 0;
+                    animation: none;right: 30px;top: 310px;width: 90px;height: 90px;}
+
+
+        @keyframes one{
+            0%{left: 20px;top: 50px;}
+            20%{left: 40px;top: 80px;}
+            40%{left: 60px;top: 60px;}
+            60%{left: 10px;top: 30px;}
+            80%{left: 40px;top: 50px;}
+            100%{top: 50px;left: 20px;}
+        }
+        @keyframes two{
+            0%{right: 20px;top: 80px;}
+            20%{right: 60px;top: 80px;}
+            40%{right: 120px;top: 80px;}
+            60%{right: 80px;top: 80px;}
+            80%{right: 0px;top: 80px;}
+            100%{top: 80px;right: 20px;}
+        }
+        @keyframes three{
+            0%{left: 20px;top: 170px;}
+            20%{left: 80px;top: 200px;}
+            40%{left: 20px;top: 230px;}
+            60%{left: 0px;top: 170px;}
+            80%{left: 50px;top: 200px;}
+            100%{top: 170px;left: 20px;}
+        }
+        @keyframes four{
+            0%{right: 10px;top: 190px;}
+            20%{right: 80px;top: 190px;}
+            40%{right: 10px;top: 190px;}
+            60%{right: 80px;top: 190px;}
+            80%{right: 10px;top: 190px;}
+            100%{top: 190px;right: 10px;}
+        }
+        @keyframes five{
+            0%{left: 20px;top: 300px;}
+            20%{left: 20px;top: 350px;}
+            40%{left: 20px;top: 300px;}
+            60%{left: 20px;top: 450px;}
+            80%{left: 20px;top: 350px;}
+            100%{top: 300px;left: 20px;}
+        }
+        @keyframes six{
+            0%{right: 20px;top: 300px;}
+            25%{right: 20px;top: 370px;}
+            50%{right: 100px;top: 370px;}
+            75%{right: 100px;top: 300px;}
+            100%{right: 20px;top: 300px;}
+        }
+        @keyframes seven{
+            0%,80%{opacity: 0;}
+            100%{opacity: 1;}
+        }
+        @keyframes eaight{
+            0%{left: 230px;bottom: 30px;}
+            20%{left: 170px;bottom: 30px;}
+            40%{left: 230px;bottom: 30px;}
+            60%{left: -100px;bottom: 30px;}
+            80%{left: 50px;bottom: 30px;}
+            100%{bottom: 30px;left: 230px;}
+        }
+        @keyframes nine{
+            0%{right: -50px;bottom: 120px;}
+            50%{right: 50px;bottom: 120px;}
+            55%{right: -100px;bottom: 120px;}
+            100%{right: -100px;bottom: 120px;}
+        }
+    </style>
+    
+       
+</head>
+<body>
+    <div class="all">
+        <img src="wp7.png" alt="">
+        <p class="click">사진을 눌러보시오 *u.u*<br />
+                        재희 없다 ~~ 모음집! 히히</p>
+    </div>
+
+    <div class="one click"></div>
+    <div class="two click"></div>
+    <div class="three click"></div>
+    <div class="four click"></div>
+    <div class="five click"></div>
+    <div class="six click"></div>
+    <div class="seven click"></div>
+    <div class="eaight click"></div>
+    <div class="nine click"></div>
+    
+
+     <a class="arrow2" href="page6.html">
+        <p>이전장~_~</p>
+        <span><img src="arrow2.png" alt=""></span>
+        <span><img src="arrow2.png" alt=""></span>
+        <span><img src="arrow2.png" alt=""></span>
+    </a>
+   
+</body>
+</html>

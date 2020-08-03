@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>우리의200일ㅎㅎ!♥|1</title>
+    <style type="text/css">
+       *{padding: 0;margin: 0;}
+        a{text-decoration: none;}
+
+
+        div.all img{position: relative;width: 100vw;height: 100vh;}
+        div.all span{position: absolute;display: block;}
+
+        div.all span:nth-of-type(1){left: 10px;top: 20px;z-index: 0;
+                                animation: ballon 2s ease-in-out 0s infinite;}
+        div.all span:nth-of-type(1) img{width: 70px;height: 200px;}
+        div.all span:nth-of-type(2){right: 25px;top: 20px;animation: ballon 2s ease-in-out 0s infinite;}
+        div.all span:nth-of-type(2) img{width: 50px;height: 150px;opacity: 0.5;}
+        div.all span:nth-of-type(3){right: 10px;top: 150px;transform: rotateX(50deg);animation: ballon 3s ease-in-out 0s infinite;}
+        div.all span:nth-of-type(3) img{width: 90px;height: 200px;}
+        div.all span:nth-of-type(4){left: 10;top: 320px;animation: ballon 3.7s ease-in-out 0s infinite;}
+        div.all span:nth-of-type(4) img{width: 80px;height: 200px;}
+        div.all span:nth-of-type(5){bottom: 0px;right: 40px;animation: ballon 4.4s ease-in-out 0s infinite;}
+        div.all span:nth-of-type(5) img{width: 70px;height: 150px;}
+
+        @keyframes ballon{
+            0%{opacity: 0;transform: translateY(0px) scale(0);}
+            20%{opacity: 0.2;transform: translateY(-3px) scale(0.2)}
+            40%{opacity: 0.4;transform: translateY(-6px) scale(0.4)}
+            60%{opacity: 0.6;transform: translateY(-9px) scale(0.6)}
+            80%{opacity: 0.8;transform: translateY(-12px) scale(0.8)}
+            100%{opacity: 1;transform: translateY(-15px) scale(1)}
+        }
+
+        a.arrow{position: absolute;right: 50px;bottom: 20px;display: inline-block;overflow: hidden;
+                  animation: arrow_all 2s forwards linear 3s ;opacity: 0;}
+        a.arrow img{width: 10px;height: 30px;}
+        a.arrow span{position: relative;;animation: arrow1 1.5s linear 0s infinite;}
+        
+        a.arrow p{font-family: Gamja Flower;color: #555;}
+
+        @keyframes arrow1{
+            0%{left:0px;}
+            49%{left:80px}
+            50%{left:-100px;}
+            100%{left:0px}
+        }
+        @keyframes arrow_all{
+            0%{opacity: 0;}
+            100%{opacity: 1;}
+        }
+        
+    </style>
+    
+       
+</head>
+<body>
+    <div class="all">
+        <img src="wp1.png" alt="">
+        <span><img src="ballon1.png" alt=""></span>
+        <span><img src="ballon2.png" alt=""></span>
+        <span><img src="ballon3.png" alt=""></span>
+        <span><img src="ballon4.png" alt=""></span>
+        <span><img src="ballon5.png" alt=""></span>
+    </div>
+    <a class="arrow" href="page2.html">
+        <p>다음장~_~</p>
+        <span><img src="arrow.png" alt=""></span>
+        <span><img src="arrow.png" alt=""></span>
+        <span><img src="arrow.png" alt=""></span>
+    </a>
+   
+</body>
+</html>
